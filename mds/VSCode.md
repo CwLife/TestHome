@@ -1,3 +1,5 @@
+[TOC]
+
 # Vim党
 
 ## Sublime Text
@@ -80,6 +82,8 @@ VS Code内置了 Git 的 GUI，能够支持大部分的常见 Git 操作，因�
  ![](http://static.zybuluo.com/asce1885/aqxyr5o3fp2a9ekvxohbj0ht/R22B3cmISGqKdjKISH3Z_Screen%20Shot%202016-11-14%20at%208.09.00%20AM.png)
 
 
+
+还可以添加git扩展，实现更丰富的功能：
 
 
 
