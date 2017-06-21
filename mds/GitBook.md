@@ -123,9 +123,7 @@ GitBook.io/GitBook.com
 
 "Settings"这个栏目可以设置很多内容：例如将书籍重命名：
 
-
-
-![](/assets/QQ20170621-133731.png)
+![](images/options.png)
 
 ![img](https://dn-anything-about-doc.qbox.me/document-uid53532labid2137timestamp1474446609335.png/wm)
 
