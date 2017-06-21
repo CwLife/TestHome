@@ -2,8 +2,6 @@ gitbook就是用git+markdown来编写书籍的解决方案!
 
 GitBook 是开源的，地址：[https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
 
-
-
 ## 编辑1：命令 + Markdown
 
 ```shell
@@ -16,19 +14,13 @@ GitBook 是开源的，地址：[https://github.com/GitbookIO/gitbook](https://g
 
 gitbook update //更新到gitbook的最新版本
 gitbook uninstall 2.0.1 //卸载对应的gitbook版本
- 
+
 gitbook help //列出gitbook所有的命令
 gitbook --help //输出gitbook-cli的帮助信息
 gitbook ls //列出本地所有的gitbook版本
 gitbook ls-remote //列出远程可用的gitbook版本
 gitbook fetch 标签/版本号 //安装对应的gitbook版本
 ```
-
-
-
-
-
-
 
 ```shell
 Last login: Wed Jun 21 09:07:26 on console
@@ -74,16 +66,10 @@ Starting server ...
 Serving book on http://localhost:4000
 Serving book on http://localhost:4000
 ^C  # Control+C退出监控   
-172-3-200-128:book Alfred$ 
+172-3-200-128:book Alfred$
 ```
 
-
-
-
-
-
-
-运行`gitbook build`后，在你的图书项目的目录中多了一个名为`_book`的文件目录，这个目录中的文件即是生成的静态
+运行`gitbook build`后，在你的图书项目的目录中多了一个名为`_book`的文件目录，这个目录中的文件即是生成的静态  
 网站内容。
 
 ```shell
@@ -91,64 +77,37 @@ Serving book on http://localhost:4000
 $ gitbook build --output=/tmp/gitbook
 ```
 
-
-
-
-
 通过服务器监控，然后通过第三方markdwon编辑器（例如，MacDown、马克飞象，typora等）进行文件修改；每次修改保存是，监控的服务器都会即使响应更新，及时可以预览变化。
-
-
 
 #### 如何关联GitBook Editor 或GitBook.io?
 
-
-
-如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：https://git.gitbook.com/cwlife/iweb.git 或者github仓库 https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
-
-
+如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库 [https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook](https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
 
 > 建议：先建仓库，然后克隆至本地！
-
-
 
 ## GitBook Editor
 
 可以：
 
-- 新建书籍
+* 新建书籍
 
-
-- 编辑书籍
+* 编辑书籍
 
   ![](https://ws4.sinaimg.cn/large/006tNc79gy1fgso574948j30k402maab.jpg)
 
-- 上传书籍
-
-
+* 上传书籍
 
 修改仓库地址：菜单-'BOOK'-'Repository Settings'
 
-![菜单-'BOOK'-'Repository Settings'](https://ws2.sinaimg.cn/large/006tNc79gy1fgsn8ah40fj30eh09475t.jpg)
-
-
-
-
+![菜单-&apos;BOOK&apos;-&apos;Repository Settings&apos;](https://ws2.sinaimg.cn/large/006tNc79gy1fgsn8ah40fj30eh09475t.jpg)
 
 也可以直接打开文件夹，用markdown编辑器编辑单个文件，保存修改时，会弹出如下提示，选择同步‘Sync’可以保存修改：
 
 ![选择同步‘Sync’可以保存修改](https://ws4.sinaimg.cn/large/006tNc79gy1fgsnbndj4pj30hq07tgma.jpg)
 
-
-
-
-
-
-
 ## GitBook.io
 
 GitBook.io/GitBook.com
-
-
 
 # 关联GitHub
 
@@ -160,6 +119,14 @@ GitBook.io/GitBook.com
 
 在 "Settings" 栏目中，点击 "GitHub"。
 
+
+
+"Settings"这个栏目可以设置很多内容：例如将书籍重命名：
+
+
+
+![](/assets/QQ20170621-133731.png)
+
 ![img](https://dn-anything-about-doc.qbox.me/document-uid53532labid2137timestamp1474446609335.png/wm)
 
 点击 "Select a Repository"，选择我们创建的存放电子书源码的仓库。
@@ -170,21 +137,9 @@ GitBook.io/GitBook.com
 
 ![](https://ws3.sinaimg.cn/large/006tNc79gy1fgso0b3v84j30tb0m2aco.jpg)
 
-
-
 ![img](https://dn-anything-about-doc.qbox.me/document-uid53532labid2137timestamp1474446898021.png/wm)
 
 成功！之后，每次在 GitHub 上更新电子书时，都会自动同步到 gitbook.com，并且自动编译成电子书。
-
-
-
-
-
- 
-
- 
-
-
 
 ## 插件安装与配置
 
@@ -230,29 +185,16 @@ Gitbook 本身功能丰富，可以使用插件来进行个性化定制。[Gitbo
 $ gitbook install ./
 ```
 
-
-
 插件搜索: [GitBook Plugins](https://plugins.gitbook.com/browse)
 
 #### 代码高亮:[prism插件](https://plugins.gitbook.com/plugin/prism)
 
 #### 页面目录：
 
-- 页面内 - [navigator](https://plugins.gitbook.com/plugin/navigator)
+* 页面内 - [navigator](https://plugins.gitbook.com/plugin/navigator)
 
-
-- 侧边 - [simple-page-toc](https://plugins.gitbook.com/plugin/simple-page-toc)
-- TOC 目录: [atoc](https://plugins.gitbook.com/plugin/atoc)
-
-
-
-
-
-
-
-
-
-
+* 侧边 - [simple-page-toc](https://plugins.gitbook.com/plugin/simple-page-toc)
+* TOC 目录: [atoc](https://plugins.gitbook.com/plugin/atoc)
 
 ## 输出：
 
@@ -260,17 +202,15 @@ Gitbook网站上可以直接导出PDF，MOBI，EBUP等电子书格式
 
 ### 网页
 
-
-
 ### 输出PDF文件
 
 先要使用NPM安装上gitbook pdf：
 
 > $ sudo npm install gitbook-pdf -g
 
-
-
 ## gitbook epub
 
 ## gitbook mobi
+
+
 
