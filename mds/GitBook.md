@@ -81,7 +81,7 @@ $ gitbook build --output=/tmp/gitbook
 
 #### 如何关联GitBook Editor 或GitBook.io?
 
-如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库 [https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook](https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
+如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库 \[[https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook](https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
 
 > 建议：先建仓库，然后克隆至本地！
 
@@ -119,11 +119,9 @@ GitBook.io/GitBook.com
 
 在 "Settings" 栏目中，点击 "GitHub"。
 
-
-
 "Settings"这个栏目可以设置很多内容：例如将书籍重命名：
 
-![](images/options.png)
+![](/images/options.png)
 
 ![img](https://dn-anything-about-doc.qbox.me/document-uid53532labid2137timestamp1474446609335.png/wm)
 
@@ -192,6 +190,7 @@ $ gitbook install ./
 * 页面内 - [navigator](https://plugins.gitbook.com/plugin/navigator)
 
 * 侧边 - [simple-page-toc](https://plugins.gitbook.com/plugin/simple-page-toc)
+
 * TOC 目录: [atoc](https://plugins.gitbook.com/plugin/atoc)
 
 ## 输出：
