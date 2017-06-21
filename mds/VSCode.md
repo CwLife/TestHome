@@ -1,57 +1,43 @@
-[TOC]
+\[TOC\]
 
 # Vim党
 
 ## Sublime Text
 
-- 最轻量，内存小
+* 最轻量，内存小
 
-- 收费
+* 收费
 
-- 对vim支持不太好
+* 对vim支持不太好
 
   ​
 
 ## Atom
 
-- 占内存大，在优化中...
+* 占内存大，在优化中...
 
-- 免费
+* 免费
 
-- 功能强大
+* 功能强大
 
   ​
 
 ## Visual Studio Code
 
-- 集合前两者优点：占内存小 & 免费
-- 可以说是半个IDE：集合了调试 git等模块
-
-
+* 集合前两者优点：占内存小 & 免费
+* 可以说是半个IDE：集合了调试 git等模块
 
 # Visual Studio Code
 
-
-
 ## 侧边栏5大模块:
 
-- 文件管理
-- 文件搜索
-- Git
-- Debug
-- Extension 扩展
+* 文件管理
+* 文件搜索
+* Git
+* Debug
+* Extension 扩展
 
 ![](http://static.zybuluo.com/asce1885/of5h9xlo9zdpcb405y7mgph6/yshYl28KRVa4XFjINR0g_LeaderboardModal_js_-_rangersteve.png)
-
-
-
-
-
-
-
-
-
-
 
 ## 调试模块
 
@@ -59,45 +45,23 @@
 
 ![](http://static.zybuluo.com/asce1885/p6szslqn7g9tcwzy1g5cw13b/aQkRD333SrOwqwUIRvqS_debugging_debugging_hero.png)
 
-
-
-
-
-
-
 ### 终端
 
 VS Code 集成的命令行终端, 通过`菜单 - 查看 - 集成终端`打开:
 
-![](http://static.zybuluo.com/asce1885/qa3d98txrsgvep2zbr06ihx2/64JiRnAdT0fK9zJoy1mD_Screen%20Shot%202016-11-14%20at%207.35.53%20AM.png)
-
-
-
-
+![](http://static.zybuluo.com/asce1885/qa3d98txrsgvep2zbr06ihx2/64JiRnAdT0fK9zJoy1mD_Screen Shot 2016-11-14 at 7.35.53 AM.png)
 
 ## 内置Git
 
 VS Code内置了 Git 的 GUI，能够支持大部分的常见 Git 操作，因此在 VS Code 中能够即时看到你对工程的改动。
 
- ![](http://static.zybuluo.com/asce1885/aqxyr5o3fp2a9ekvxohbj0ht/R22B3cmISGqKdjKISH3Z_Screen%20Shot%202016-11-14%20at%208.09.00%20AM.png)
-
-
+![](http://static.zybuluo.com/asce1885/aqxyr5o3fp2a9ekvxohbj0ht/R22B3cmISGqKdjKISH3Z_Screen Shot 2016-11-14 at 8.09.00 AM.png)
 
 还可以添加git扩展，实现更丰富的功能：
 
-
-
-
-
-
-
-
-
-
+![](/images/vscode_git.png)
 
 ## 扩展
-
-
 
 ### Git History
 
@@ -107,19 +71,9 @@ VS Code内置了 Git 的 GUI，能够支持大部分的常见 Git 操作，因�
 
 ![](http://static.zybuluo.com/asce1885/xuob0h4yb3mr8m11xtiazc6u/okEXgPjORyOdDelV4E1B_gitLogv2.gif)
 
-
-
-
-
-### Python for VSCode 
-
-
+### Python for VSCode
 
 ### VSCode Rreact Native
-
-
-
-
 
 ## 其他特性
 
@@ -127,9 +81,7 @@ VS Code内置了 Git 的 GUI，能够支持大部分的常见 Git 操作，因�
 
 VS Code 最多可同时开启三个子窗口。若多个子窗口中打开的文件为同一文件时，则修改其中任意窗口内容，其他窗口都可以实时同步变更。
 
-![](http://upload-images.jianshu.io/upload_images/1255999-7d291ce817f17b0a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
+![](http://upload-images.jianshu.io/upload_images/1255999-7d291ce817f17b0a.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
 
 ### 支持Markdown编辑
 
