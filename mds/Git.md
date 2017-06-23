@@ -1,6 +1,12 @@
+\[TOC\]
+
 # Git 命令操作
 
-从远程克隆仓库并提交：
+
+
+## 场景
+
+### 从远程克隆仓库并提交:
 
 ```shell
 $ cd /Users/Alfred/Desktop/book 
@@ -15,12 +21,12 @@ Initial commit
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	README.md
-	SUMMARY.md
-	_book/
-	a/
-	b/
-	c.md
+    README.md
+    SUMMARY.md
+    _book/
+    a/
+    b/
+    c.md
 
 nothing added to commit but untracked files present (use "git add" to track)
 
@@ -28,8 +34,6 @@ $ git add . # 添加所有文件
 $ git commit -m 'first commit'  # 提交
 $ git push -u origin master  # 推送至远程仓库
 ```
-
-
 
 
 
