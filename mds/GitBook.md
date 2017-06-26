@@ -219,7 +219,7 @@ $ gitbook install ./
 
 * 侧边 - [simple-page-toc](https://plugins.gitbook.com/plugin/simple-page-toc)
 
-      ![](/images/plugin-toc2.png)
+  ![](/images/plugin-toc2.png)
 
 * 插入 TOC 目录:[atoc](https://plugins.gitbook.com/plugin/atoc)
 
