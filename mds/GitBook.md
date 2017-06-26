@@ -89,7 +89,7 @@ $ gitbook build --output=/tmp/gitbook
 
 ### 本地如何关联GitBook Editor 或GitBook.io?
 
-如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库 \[\[[https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\)\](https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook%29\)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
+如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库 \[\[\[[https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\)\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\)\)\](https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook%29]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook%29%29\)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
 
 > 建议：先建仓库，然后克隆至本地！
 
@@ -202,32 +202,26 @@ Gitbook 本身功能丰富，但同时可以使用插件来进行个性化定制
 $ gitbook install ./
 ```
 
-
-
 ## 常用插件
 
 官方网站搜索插件: [GitBook Plugins](https://plugins.gitbook.com/browse)
 
 代码高亮:
 
-- [prism](https://plugins.gitbook.com/plugin/prism)
-- [highlight](https://plugins.gitbook.com/plugin/highlight)
-
-
+* [prism](https://plugins.gitbook.com/plugin/prism)
+* [highlight](https://plugins.gitbook.com/plugin/highlight)
 
 页面目录：
 
-- 页面内 - [navigator](https://plugins.gitbook.com/plugin/navigator)
+* 页面内 - [navigator](https://plugins.gitbook.com/plugin/navigator)
 
-  ```
   ![](/images/plugin_navi.png)
-  ```
 
-- 侧边 - [simple-page-toc](https://plugins.gitbook.com/plugin/simple-page-toc)
+* 侧边 - [simple-page-toc](https://plugins.gitbook.com/plugin/simple-page-toc)
 
-- 插入 TOC 目录:[atoc](https://plugins.gitbook.com/plugin/atoc)
+      ![](/images/plugin-toc2.png)
 
-
+* 插入 TOC 目录:[atoc](https://plugins.gitbook.com/plugin/atoc)
 
 [editlink](https://plugins.gitbook.com/plugin/editlink)
 
