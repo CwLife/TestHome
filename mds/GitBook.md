@@ -1,6 +1,4 @@
-[TOC]
-
-
+\[TOC\]
 
 # GitBook
 
@@ -8,15 +6,9 @@ GitBook就是用git+markdown来编写书籍的解决方案!
 
 GitBook 是开源的，地址：[https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
 
-
-
 # 编辑操作
 
-
-
 GitBook 主要有三种编辑途径，通过git功能可以相互交替使用。
-
-
 
 ## ①命令 + Markdown
 
@@ -95,17 +87,11 @@ $ gitbook build --output=/tmp/gitbook
 
 通过服务器监控，然后通过第三方markdwon编辑器（例如，MacDown、马克飞象，typora等）进行文件修改；每次修改保存是，监控的服务器都会即使响应更新，及时可以预览变化。
 
-
-
-
-
 ### 本地如何关联GitBook Editor 或GitBook.io?
 
-如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库 \[[https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook](https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
+如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库 \[\[[https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\)\](https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook%29\)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
 
 > 建议：先建仓库，然后克隆至本地！
-
-
 
 ## ②GitBook Editor
 
@@ -119,29 +105,19 @@ $ gitbook build --output=/tmp/gitbook
 
 * 上传书籍
 
-
-
 * 可以修改仓库地址：菜单-'BOOK'-'Repository Settings'
 
 ![菜单-&apos;BOOK&apos;-&apos;Repository Settings&apos;](https://ws2.sinaimg.cn/large/006tNc79gy1fgsn8ah40fj30eh09475t.jpg)
 
-
-
 也可以直接打开本地文件夹，用markdown编辑器编辑单个文件，保存修改时，会弹出如下提示，选择同步‘Sync’可以保存修改：
 
 ![选择同步‘Sync’可以保存修改](https://ws4.sinaimg.cn/large/006tNc79gy1fgsnbndj4pj30hq07tgma.jpg)
-
-
-
-
 
 ## ③GitBook.io
 
 GitBook.io/GitBook.com
 
 包含所有功能的操作。
-
-
 
 其中，"Settings"这个栏目可以做很多设置，例如将书籍重命名：
 
@@ -215,17 +191,15 @@ Gitbook 本身功能丰富，可以使用插件来进行个性化定制。[Gitbo
 $ gitbook install ./
 ```
 
-
-
-
-
 搜索插件: [GitBook Plugins](https://plugins.gitbook.com/browse)
 
-- 代码高亮: [prism插件](https://plugins.gitbook.com/plugin/prism)
-- 页面目录：
-  + 页面内 - [navigator](https://plugins.gitbook.com/plugin/navigator)
-  + 侧边 - [simple-page-toc](https://plugins.gitbook.com/plugin/simple-page-toc)
-  + TOC 目录: [atoc](https://plugins.gitbook.com/plugin/atoc)
+* 代码高亮: [prism插件](https://plugins.gitbook.com/plugin/prism)
+* 页面目录：
+  * 页面内 - [navigator](https://plugins.gitbook.com/plugin/navigator)
+
+          ![](/images/plugin_navi.png)
+  * 侧边 - [simple-page-toc](https://plugins.gitbook.com/plugin/simple-page-toc)
+  * TOC 目录: [atoc](https://plugins.gitbook.com/plugin/atoc)
 
 # 输出：
 
