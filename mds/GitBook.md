@@ -89,7 +89,7 @@ $ gitbook build --output=/tmp/gitbook
 
 ### 本地如何关联GitBook Editor 或GitBook.io?
 
-如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库https://git.oschina.net/alfred03/book-axyz.git）；然后通过'GitBook%29\)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
+如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库[https://git.oschina.net/alfred03/book-axyz.git）；然后通过'GitBook\)\)\](https://git.oschina.net/alfred03/book-axyz.git）；然后通过'GitBook%29%29\)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
 
 > 建议：先建仓库，然后克隆至本地！
 
@@ -125,9 +125,7 @@ GitBook.io/GitBook.com
 
 ### 找书:explore板块
 
-网址：https://www.gitbook.com/explore
-
-
+网址：[https://www.gitbook.com/explore](https://www.gitbook.com/explore)
 
 在这个版块，你可以搜索开放的书籍。
 
@@ -137,9 +135,7 @@ https://www.gitbook.com/@wizardforcel # 很多IT的书
 https://www.gitbook.com/@yourtion
 ```
 
-​    
-
-
+​
 
 # 关联GitHub
 
@@ -168,6 +164,8 @@ https://www.gitbook.com/@yourtion
 # 插件安装与配置
 
 Gitbook 本身功能丰富，可以使用插件来进行个性化定制。[Gitbook 插件](http://localhost:4000/start/plugin.html) 里已经有100多个插件，可以在 `book.json` 文件的 `plugins` 和`pluginsConfig` 字段添加插件及相关配置，添加后别忘了进行安装。
+
+&gt;ps: 插件的效果是在生成电子书或网页时生效！
 
 ```json
 // book.json
