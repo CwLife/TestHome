@@ -1,6 +1,5 @@
 {
-    "plugins": [ 
-        "theme-faq",
-        "navigator",
+    "plugins": [
+        "neo-navigator",
         "prism", "-highlight"]
 }
