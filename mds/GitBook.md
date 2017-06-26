@@ -89,7 +89,7 @@ $ gitbook build --output=/tmp/gitbook
 
 ### 本地如何关联GitBook Editor 或GitBook.io?
 
-如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库 \[\[[https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\]\(https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook\)\](https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook]%28https://git.oschina.net/alfred03/book-axyz.git）;然后通过'GitBook%29\)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
+如果想切换到用GitBook Editor来编辑，首先要将你的书关联到一个git仓库（例如：[https://git.gitbook.com/cwlife/iweb.git](https://git.gitbook.com/cwlife/iweb.git) 或者github仓库https://git.oschina.net/alfred03/book-axyz.git）；然后通过'GitBook%29\)\) Editor'的'Import'导入GitBook Editor进行编辑修改并可以上传到仓库。
 
 > 建议：先建仓库，然后克隆至本地！
 
@@ -137,7 +137,7 @@ https://www.gitbook.com/@wizardforcel # 很多IT的书
 https://www.gitbook.com/@yourtion
 ```
 
-    
+​    
 
 
 
