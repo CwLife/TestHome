@@ -1,5 +1,5 @@
 {
-    "plugins": [
-        "neo-navigator",
+    "plugins": [ 
+        "navigator",
         "prism", "-highlight"]
 }
