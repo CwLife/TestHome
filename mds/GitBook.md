@@ -200,6 +200,8 @@ Gitbook 本身功能丰富，但同时可以使用插件来进行个性化定制
 
 # 添加新插件需要运行gitbook install来安装新的插件：
 $ gitbook install ./
+
+终端会显示安装进度；安装完成后，目录文件夹会多出一个"node_modules"文件夹
 ```
 
 ## 常用插件
